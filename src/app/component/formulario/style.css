@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+       .consulta-de-carrera {
+           width: 300px;
+           margin: 0 auto; /* Centra el formulario */
+       }
+
+       .consulta-de-carrera select {
+           width: 100%;
+           padding: 10px;
+           border: none;
+           background: #f1f1f1;
+       }
+
+       .consulta-de-carrera input[type="submit"] {
+           width: 100%;
+           padding: 10px;
+           border: none;
+           background: #4CAF50;
+           color: white;
+           cursor: pointer;
+       }
+
+       .consulta-de-carrera input[type="submit"]:hover {
+           background: #45a049;
+       }
+   </style>
+</head>
+<body>
+   <div class="consulta-de-carrera">
+       <form action="/action_page.php">
+           <select id="cars" name="cars">
+               <option value="volvo">TNS en Informática</option>
+               <option value="saab">Técnico de Nivel Superior Veterinaria</option>
+               <option value="fiat">Técnico de Nivel Superior en Trabajo Social</option>
+           </select>
+           <input type="submit" value="Submit">
+       </form>
+   </div>
+</body>
+</html>
+
+
+
